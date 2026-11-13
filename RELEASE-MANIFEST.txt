@@ -1,0 +1,67 @@
+# Emostate 0.9.16 — Final Release Manifest
+
+Generated: 2026-11-13
+Version: 0.9.16
+License: All Rights Reserved (no open-source license granted)
+Author: MUSUBLOOM
+Module API: 1
+Minimum Aurabot: 1.2.0
+Source archive SHA256: 8D50AD825937AB9F5C456938D49078B912B1D3CFAC6A4BEC3B23EEAE0AAD2D07
+
+| File | Size (KB) | SHA256 (first 16) |
+|---|---:|---|
+| .gitignore | 0.5 | 277052700AC6AED8 |
+| CHANGELOG.md | 3.4 | 717DB9270F5D3676 |
+| CONTRIBUTING.md | 3.5 | 7FA92C0457C9A132 |
+| LICENSE | 0.9 | E77196ED2ED49D1A |
+| README.md | 13.2 | D40FAE3D9CAE0B2A |
+| RELEASE-AUDIT.md | 8.5 | A065B761AA8226BB |
+| ROADMAP.md | 3.9 | 6C42FBAC034069CD |
+| SECURITY-REPORT.md | 5.8 | 23D603E1C9515927 |
+| SECURITY.md | 4.2 | 36FAE73CCFB4BCC8 |
+| TEST-REPORT.md | 5.3 | 2837442FD6AE110B |
+| docs/architecture.md | 12.4 | BD32C4B3672DD493 |
+| docs/configuration.md | 4.6 | 679443C88663C6E4 |
+| docs/installation.md | 5.8 | 24F20FAC083E5B02 |
+| docs/usage.md | 6.4 | A13350277F228379 |
+| examples/README.md | 1.1 | 24525B338F465B8A |
+| examples/env.example | 0.3 | 77BCF39C64602BDF |
+| examples/state.blank.json | 0.5 | B190D963C973BF3B |
+| src/index.mjs | 75.6 | 37936BECC7E7C799 |
+| src/module.json | 0.4 | 59C8B8734BE23A98 |
+| src/lib/agency.mjs | 3.3 | 8A2566876C1D3F1A |
+| src/lib/appraise.mjs | 12.8 | 6BA0532706C731C6 |
+| src/lib/conditioning.mjs | 2.2 | 78183F539181CEFA |
+| src/lib/diagnostics.mjs | 7.9 | 5E7BC729A08C54EF |
+| src/lib/emotion.mjs | 11.7 | C49717157DC8B1E1 |
+| src/lib/hormones.mjs | 0.5 | ABFA51F146DA9405 |
+| src/lib/load.mjs | 1.0 | 2B62E70A6AD473D2 |
+| src/lib/model-gate.mjs | 4.4 | 2D2719E99F8A4404 |
+| src/lib/people.mjs | 1.3 | D50770B868D690D5 |
+| src/lib/persistence.mjs | 4.9 | 16AA9698D2EBD363 |
+| src/lib/reachability.mjs | 3.5 | AA472C112BB1FAD1 |
+| src/lib/relationship.mjs | 0.5 | DE375F6721E4C669 |
+| src/tests/agency.test.mjs | 3.5 | 734252D74FCD5926 |
+| src/tests/appraise.test.mjs | 5.1 | 819040A6541C06D8 |
+| src/tests/conditioning.test.mjs | 1.8 | 3A2D31FB2E78F56D |
+| src/tests/diagnostics.test.mjs | 9.7 | 5EF6D385B76C5D54 |
+| src/tests/feedback.test.mjs | 7.4 | D2E8F29473815490 |
+| src/tests/functional.test.mjs | 4.2 | B33F418D3FF217F8 |
+| src/tests/hormones.test.mjs | 1.5 | F7D451C025AC743A |
+| src/tests/load.test.mjs | 0.9 | E8A8A57278AA5EB1 |
+| src/tests/model-gate.test.mjs | 5.3 | 7458B8BAC948769C |
+| src/tests/module.test.mjs | 35.9 | E5C384C3A8CBF13B |
+| src/tests/people.test.mjs | 2.2 | AD9E4E74A0115A95 |
+| src/tests/persistence.test.mjs | 7.6 | 37884B783E718C25 |
+| src/tests/relationship.test.mjs | 2.0 | 7961CC5E1CC9A78D |
+| src/tests/review.test.mjs | 8.0 | E9281C607DDFEED1 |
+| src/tests/waiting-log.test.mjs | 1.6 | D7E44C9345A2C1D7 |
+| src/tests/waiting.test.mjs | 0.9 | 7D11265D43184A9B |
+
+Files (excluding this manifest): 47
+Total size: 0.30 MB
+
+Tests: 149 total / 148 pass / 1 skipped without host; 149 pass with host.
+Timezone: UTC, Asia/Taipei, Asia/Shanghai checked; 0 failures.
+Discovery: separate research artifact; not in this release.
+

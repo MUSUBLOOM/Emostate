@@ -1,0 +1,19 @@
+{
+  "id": "emostate",
+  "name": "内部状态",
+  "version": "0.9.16",
+  "description": "内部状态与情绪：刺激→状态→念头→表达→叙事",
+  "category": "social",
+  "tags": [
+    "情绪",
+    "状态",
+    "数字生命"
+  ],
+  "author": "MUSUBLOOM",
+  "api": 1,
+  "minPluginVersion": "1.2.0",
+  "requires": [],
+  "capabilities": [
+    "filesystem"
+  ]
+}
