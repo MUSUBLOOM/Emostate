@@ -2,21 +2,15 @@
 
 **An endogenous-state dynamics module for intelligent agents.**
 
-Emostate is an experimental Aurabot module that maintains persistent internal state, evaluates external events, evolves state over elapsed time, conditions recall, and supports bounded autonomous solo actions. This repository publishes the 0.9.16 release snapshot for technical inspection and feedback.
+Emostate is an experimental Aurabot module that maintains persistent internal state, evaluates external events, evolves state over elapsed time, conditions recall, and supports bounded autonomous solo actions. This repository is being prepared as the 0.9.16 release snapshot for technical inspection and feedback.
 
-## Release package
+## Release status
 
-[Download the complete Emostate 0.9.16 package](Emostate-0.9.16-Publication-Candidate-20261113.zip)
+The 0.9.16 source package is undergoing final publication checks. The complete source tree, tests, examples, installation/configuration/architecture docs, changelog, roadmap, security report, test report, and release audit will be added after the final package is verified. This repository is not yet the complete release.
 
-The archive contains the source tree, module metadata, tests, examples, installation/configuration/architecture docs, changelog, roadmap, security report, test report, and release audit.
+## Verification status
 
-## Verification
-
-- 149 tests total
-- 148 passed, 0 failed, 1 skipped when the external Aurabot QQ command parser is not supplied
-- The skipped test can run with `AURABOT_COMMANDS_FILE` pointing to the host parser
-- Independent check: Node.js 22.16.0 on Linux, 148 passed / 0 failed / 1 skipped; the time-of-day fixture was verified under both Asia/Taipei and UTC
-- No real QQ/model end-to-end test is included
+An independent Node.js 22.16.0 test run on Linux recorded 148 passed, 0 failed, and 1 skipped (the skipped test requires the external Aurabot QQ command parser via `AURABOT_COMMANDS_FILE`). The time-of-day test fixture was checked under Asia/Taipei and UTC. No real QQ/model end-to-end test is included.
 
 ## Scope
 
@@ -24,8 +18,8 @@ Discovery is a separate research artifact and is not included in 0.9.16 or conne
 
 ## License and repository terms
 
-Copyright (c) 2026 MUSUBLOOM. All rights reserved. No open-source software license is granted. Because this repository is public, GitHub users may view and fork it within GitHub under GitHub's Terms of Service (Section D.5). This is not a general software license and does not grant broader rights to use, modify, redistribute, or create derivative works outside GitHub's platform functionality. See [LICENSE](LICENSE) and [GitHub's Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+Copyright (c) 2026 MUSUBLOOM. All rights reserved. No open-source software license is granted. Because this repository is intended to be public, GitHub users may view and fork it within GitHub under GitHub's Terms of Service (Section D.5). This is not a general software license and does not grant broader rights to use, modify, redistribute, or create derivative works outside GitHub's platform functionality. See [LICENSE](LICENSE) once the full release package is published and [GitHub's Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
 
 ## Compatibility
 
-Emostate 0.9.16 is an Aurabot module (plugin API 1; minimum Aurabot 1.2.0). See the full package's README and docs before installation.
+Emostate 0.9.16 is an Aurabot module (plugin API 1; minimum Aurabot 1.2.0).
